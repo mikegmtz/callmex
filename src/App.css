@@ -1,0 +1,104 @@
+@font-face { font-family: Helvetica; src: url('./assets/fonts/HelveticaNeue.ttc'); } 
+@font-face { font-family: Nexa; src: url('./assets/fonts/Nexa-ExtraLight.ttf'); } 
+@font-face { font-family: Nexa; src: url('./assets/fonts/Nexa-Heavy.ttf'); } 
+.App {
+  text-align: center;
+}
+.App.container-fluid{
+  max-width: 1920px;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  overflow-x: hidden;
+}
+header{
+  -webkit-box-shadow: 0px 3px 12px -4px rgba(206,206,206,0.73);
+-moz-box-shadow: 0px 3px 12px -4px rgba(206,206,206,0.73);
+box-shadow: 0px 3px 12px -4px rgba(206,206,206,0.73);
+}
+.App-logo {
+  height: auto;
+  pointer-events: none;
+}
+.App-Map{
+  width: 467px;
+}
+.App-Mobile{
+  width: 353px;
+}
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    max-width: 192px;
+    width: 100%;
+    display: flex;
+  }
+}
+
+.App-header {
+  background-color: #fff;
+  height: 140px;
+  display: flex;
+  flex-direction: column;
+  color: white;
+  justify-content: center;
+  padding: 0 50px;
+}
+
+.App-link {
+  color: #61dafb;
+  display: flex;
+  justify-content: flex-end;
+}
+.text-align-left{
+  text-align: left;
+}
+.text{
+  font-size: 20px;
+  color: #212121;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: normal;
+  text-align: left;
+
+}
+.txt-top{
+  top: 50px;
+    position: relative;
+}
+.h2::after {
+  content: "";
+  position: absolute;
+  width: 131px;
+  height: 2px;
+  background: #8C11AA;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  display: block;
+  top: 70px;
+}
+small{
+  display: block;
+  font-size: 18px;
+}
+li{
+  list-style-image: url('./assets/bullet.svg');
+
+  
+}
+li p{
+  margin-left: 10px;
+}
+
+footer{
+  background: #8C11AA;
+  color: #fff;
+  padding: 20px 0;
+
+}
+footer p{
+  font-family: 'Nexa', sans-serif;
+  font-size: 30px;
+  font-weight: 100;
+
+}
